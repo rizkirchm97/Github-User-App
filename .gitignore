@@ -10,7 +10,7 @@
 .DS_Store
 /build
 /captures
-/keystore.properties
+keystore.properties
 .externalNativeBuild
 .cxx
 local.properties
