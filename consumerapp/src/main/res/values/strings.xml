@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ConsumerApp</string>
+    <string name="favorite">Favorite</string>
+    <string name="settings">Settings</string>
+    <string name="search_result">Your Search Result will appear here</string>
+    <string name="github_octocat">Github Octocat</string>
+    <string name="user_app">Github User App</string>
+    <string name="photo_profile">Photo Profile</string>
+    <string name="username">Username</string>
+    <string name="user_s_name">User\'s Name</string>
+    <string name="_0">0</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="location">Location</string>
+    <string name="empty">Empty</string>
+    <string name="company">Company</string>
+    <string name="email">Email</string>
+    <string name="repository">Repository</string>
+    <string name="title_detail">User Detail</string>
+    <string name="tab_text_1">Followers</string>
+    <string name="tab_text_2">Following</string>
+    <string name="fav_title">Favorite</string>
+    <string name="floating_action_button_favorite">Floating Action Button Favorite</string>
+    <string name="key_alarm_preference">alarmManagerPref</string>
+    <string name="title_alarm_preference">Daily Reminder 9.00 AM</string>
+    <string name="alarm_message">if you need someone on Github, feel free to search! Lets find them</string>
+</resources>

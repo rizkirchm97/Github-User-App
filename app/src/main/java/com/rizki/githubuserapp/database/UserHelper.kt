@@ -6,6 +6,7 @@ import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.provider.BaseColumns._ID
 import com.rizki.githubuserapp.database.UserContract.UsersColumns.Companion.TABLE_NAME
+import com.rizki.githubuserapp.database.UserContract.UsersColumns.Companion.USERNAME
 import java.sql.SQLException
 
 class UserHelper(context: Context) {
@@ -49,12 +50,12 @@ class UserHelper(context: Context) {
             null
         )
     }
-    fun queryById(id: String): Cursor {
+    fun queryByUsername(user: String): Cursor {
         return database.query(
             DATABASE_TABLE,
             null,
-            "$_ID = ?",
-            arrayOf(id),
+            "$USERNAME = ?",
+            arrayOf(user),
             null,
             null,
             null,
@@ -68,6 +69,10 @@ class UserHelper(context: Context) {
 
     fun update(id: String, values: ContentValues?): Int {
         return database.update(DATABASE_TABLE, values, "$_ID = ?", arrayOf(id))
+    }
+
+    fun deleteByUsername(id: String): Int {
+        return database.delete(DATABASE_TABLE, "$USERNAME = '$id'", null)
     }
 
     fun deleteById(id: String): Int {

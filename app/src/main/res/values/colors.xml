@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="indigo">#1a237e</color>
     <color name="blue_gray_900">#000a12</color>
+    <color name="search_color">#E1E1E1</color>
+    <color name="bg_color">#F6F6F6</color>
 </resources>
